@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "windlass";
+  src: url('./assets/Windlass.ttf');
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  font-family: 'windlass','Kumar One Outline', cursive;
+  font-size: 32px;
+}
+
+tr:nth-child(even) {
+  background-color: #f3f3e6;
+}
+
+
+.center ul {
+  text-align: left;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+
+
+
+ul {
+  list-style: none;
+  display: inline-block;
+}
+
+li::before {
+  content: '';
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  padding-left: 1em;
+  background-image: url("./assets/trident.svg");
+}
+
+.card {
+  margin-bottom: 64px;
+}
+
+.image {
+  margin: 24px;
+  width: 7rem;
+}
+
+.zoom:hover {
+  transition: transform .5s;
+  transform: scale(1.2);
+}
+
+body {
+  padding: 32px;
+  background-color: #dce0f5;
+  font-family: 'windlass','Kumar One', cursive;
+}
+
+.center {
+  text-align: center;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 800;
+  font-style: italic;
+  text-transform: uppercase;
+  font-family: 'windlass','Kumar One Outline', cursive;
+}
+
+
+
+
+@media (max-width: 800px){
+  .image {
+    margin: 16px;
+    width: 5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .image {
+    margin: 8px;
+    width: 4rem;
+  }
+
+  .card {
+    margin-bottom: 32px;
+  }
+
+  body {
+    padding: 16px;
+    background-color: #dce0f5;
+    font-family: 'windlass','Kumar One', cursive;
+  }
+
+  .dead {
+    border: 2px red dashed;
+  }
+}
