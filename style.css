@@ -15,14 +15,13 @@ td, th {
 }
 
 th {
-  font-family: 'windlass','Kumar One Outline', cursive;
+  font-family: 'windlass', 'Kumar One Outline', cursive;
   font-size: 32px;
 }
 
 tr:nth-child(even) {
   background-color: #f3f3e6;
 }
-
 
 .center ul {
   text-align: left;
@@ -31,8 +30,6 @@ tr:nth-child(even) {
   zoom: 1;
   *display: inline;
 }
-
-
 
 ul {
   list-style: none;
@@ -67,7 +64,7 @@ li::before {
 body {
   padding: 32px;
   background-color: #dce0f5;
-  font-family: 'windlass','Kumar One', cursive;
+  font-family: 'windlass', 'Kumar One', cursive;
 }
 
 .center {
@@ -79,13 +76,10 @@ body {
   font-weight: 800;
   font-style: italic;
   text-transform: uppercase;
-  font-family: 'windlass','Kumar One Outline', cursive;
+  font-family: 'windlass', 'Kumar One Outline', cursive;
 }
 
-
-
-
-@media (max-width: 800px){
+@media (max-width: 800px) {
   .image {
     margin: 16px;
     width: 5rem;
@@ -97,17 +91,14 @@ body {
     margin: 8px;
     width: 4rem;
   }
-
   .card {
     margin-bottom: 32px;
   }
-
   body {
     padding: 16px;
     background-color: #dce0f5;
-    font-family: 'windlass','Kumar One', cursive;
+    font-family: 'windlass', 'Kumar One', cursive;
   }
-
   .dead {
     border: 2px red dashed;
   }
