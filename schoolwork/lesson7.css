@@ -1,0 +1,26 @@
+.center {
+  text-align: center;
+  color: #272e91
+}   
+
+body {
+background-color:#b5f7d3;
+}
+
+h1 {
+background-color:#54e897;
+}
+
+
+
+.zoom:hover {
+transition: transform .5s;
+transform: scale(1.2);
+}
+
+.image {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 25%;
+}
